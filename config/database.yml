@@ -1,0 +1,17 @@
+login: &login
+  adapter: postgresql
+  encoding: utf-8
+  host: localhost
+  pool: 5
+
+development:
+  database: dailynote_development
+  <<: *login
+
+test: &test
+  database: dailynote_test
+  <<: *login
+
+production:
+  database: dailynote_production
+  <<: *login

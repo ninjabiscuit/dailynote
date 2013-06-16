@@ -1,0 +1,10 @@
+{
+  "dependencies" : {
+    "webwriter" : "git://github.com/ninjabiscuit/webwriter.git",
+    "backbone" : "1.0.0",
+    "underscore" : "1.4.4",
+    "jquery" : "2.0.2",
+    "requirejs-tpl" : "git://github.com/ZeeAgency/requirejs-tpl.git",
+    "backbone.offline" : "git@github.com:ask11/backbone-offline.git"
+  }
+}

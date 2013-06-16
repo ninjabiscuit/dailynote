@@ -1,0 +1,4 @@
+mainConfigFile: "tmp/assets/application.js"
+modules:
+- name: "application"
+wrap: true
